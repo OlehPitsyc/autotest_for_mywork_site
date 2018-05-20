@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29064" started-at="2018-05-20T21:09:40Z" finished-at="2018-05-20T21:10:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29064" started-at="2018-05-20T21:09:40Z" finished-at="2018-05-20T21:10:09Z">
+      <class name="automation.test.roi4cio.homepage.TestHomePage">
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:automation.test.roi4cio.homepage.TestHomePage@5b3a7ef5]" name="openHomePage" is-config="true" duration-ms="11503" started-at="2018-05-21T00:09:40Z" finished-at="2018-05-21T00:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="isLoginPageOpen()[pri:0, instance:automation.test.roi4cio.homepage.TestHomePage@5b3a7ef5]" name="isLoginPageOpen" duration-ms="3358" started-at="2018-05-21T00:09:51Z" finished-at="2018-05-21T00:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLoginPageOpen -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.test.roi4cio.homepage.TestHomePage@5b3a7ef5]" name="tearDown" is-config="true" duration-ms="776" started-at="2018-05-21T00:09:55Z" finished-at="2018-05-21T00:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:automation.test.roi4cio.homepage.TestHomePage@5b3a7ef5]" name="openHomePage" is-config="true" duration-ms="9128" started-at="2018-05-21T00:09:55Z" finished-at="2018-05-21T00:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="isSalesToolOpen()[pri:0, instance:automation.test.roi4cio.homepage.TestHomePage@5b3a7ef5]" name="isSalesToolOpen" duration-ms="3574" started-at="2018-05-21T00:10:05Z" finished-at="2018-05-21T00:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSalesToolOpen -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.test.roi4cio.homepage.TestHomePage@5b3a7ef5]" name="tearDown" is-config="true" duration-ms="570" started-at="2018-05-21T00:10:08Z" finished-at="2018-05-21T00:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.test.roi4cio.homepage.TestHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

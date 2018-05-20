@@ -1,0 +1,5 @@
+automation\test\roi4cio\HomePage.class
+automation\test\roi4cio\select\browser\Browser.class
+automation\test\roi4cio\Roi4cio.class
+automation\test\roi4cio\LoginPage.class
+automation\test\roi4cio\SaleToolsPage.class
