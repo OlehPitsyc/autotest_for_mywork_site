@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1526934903512,
+    "stop" : 1526934931085,
+    "duration" : 27573
+  },
+  "testSuites" : [ {
+    "uid" : "6e62bcb87b73f407",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test",
+    "time" : {
+      "start" : 1526934903512,
+      "stop" : 1526934931085,
+      "duration" : 27573
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "f5bccc0eaf917dba",
+      "name" : "isSalesToolOpen",
+      "title" : "Is sales tool open",
+      "time" : {
+        "start" : 1526934903512,
+        "stop" : 1526934910163,
+        "duration" : 6651
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e2d1a38e4978def6",
+      "name" : "isLoginPageOpen",
+      "title" : "Is login page open",
+      "time" : {
+        "start" : 1526934927808,
+        "stop" : 1526934931085,
+        "duration" : 3277
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

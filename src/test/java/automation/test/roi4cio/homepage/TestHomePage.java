@@ -9,8 +9,10 @@ import automation.test.roi4cio.HomePage;
 import automation.test.roi4cio.LoginPage;
 import automation.test.roi4cio.Roi4cio;
 import automation.test.roi4cio.SaleToolsPage;
+import automation.test.roi4cio.listener.IWebApp;
+import automation.test.roi4cio.listener.IWebAppTest;
 
-public class TestHomePage {
+public class TestHomePage implements IWebAppTest {
 
 	Roi4cio roi4cio = new Roi4cio();
 	private HomePage homePage;
@@ -43,5 +45,10 @@ public class TestHomePage {
 	public void tearDown() {
 		roi4cio.close();
 
+	}
+
+	@Override
+	public IWebApp getTestedApp() {
+		return this.roi4cio;
 	}
 }
