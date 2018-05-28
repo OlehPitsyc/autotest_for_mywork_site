@@ -3,7 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="automation.test.roi4cio.homepage.TestHomePage"/>
+      <class name="automation.test.roi4cio.homepage.TestLoginPage">
+        <methods>
+          <include name="testLoggedUserAsUser"/>
+        </methods>
+      </class> <!-- automation.test.roi4cio.homepage.TestLoginPage -->
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="automation.test.roi4cio.homepage.TestLoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLoggedUserAsUser"/>
+          <include name="openHomePage"/>
+        </methods>
+      </class> <!-- automation.test.roi4cio.homepage.TestLoginPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

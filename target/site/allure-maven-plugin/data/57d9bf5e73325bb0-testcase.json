@@ -1,0 +1,104 @@
+{
+  "uid" : "57d9bf5e73325bb0",
+  "name" : "isLoginPageOpen",
+  "title" : "Is login page open",
+  "time" : {
+    "start" : 1527540910793,
+    "stop" : 1527540914126,
+    "duration" : 3333
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8ab851ed147f050b",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ {
+    "name" : "openHomePage",
+    "title" : "Open roi4cio home page: http://roi-test.my-dev.org/",
+    "time" : {
+      "start" : 1527540901444,
+      "stop" : 1527540910790,
+      "duration" : 9346
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToLoginPage",
+    "title" : "Click on login button",
+    "time" : {
+      "start" : 1527540910796,
+      "stop" : 1527540914064,
+      "duration" : 3268
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "isLoginFormDisplayed",
+    "title" : "Verife if login form is displayed",
+    "time" : {
+      "start" : 1527540914066,
+      "stop" : 1527540914126,
+      "duration" : 60
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "11040@DELL-5559.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "testClass",
+    "value" : "automation.test.roi4cio.homepage.TestHomePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "isLoginPageOpen"
+  }, {
+    "name" : "host",
+    "value" : "DELL-5559"
+  } ],
+  "parameters" : [ ]
+}

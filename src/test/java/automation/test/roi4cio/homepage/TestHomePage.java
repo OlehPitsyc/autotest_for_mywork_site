@@ -30,7 +30,7 @@ public class TestHomePage implements IWebAppTest {
 	public void isSalesToolOpen() throws InterruptedException {
 		saleToolsPage = homePage.goToSalesToolPage();
 		String a = saleToolsPage.checkHomePage();
-		Assert.assertEquals(a, "Sales Tool");
+		Assert.assertEquals(a, "SalesTools");
 
 	}
 

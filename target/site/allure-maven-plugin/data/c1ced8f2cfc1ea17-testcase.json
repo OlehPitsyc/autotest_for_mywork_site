@@ -1,0 +1,89 @@
+{
+  "uid" : "c1ced8f2cfc1ea17",
+  "name" : "isSalesToolOpen",
+  "title" : "Is sales tool open",
+  "time" : {
+    "start" : 1527540895031,
+    "stop" : 1527540899709,
+    "duration" : 4678
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8ab851ed147f050b",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ {
+    "name" : "openHomePage",
+    "title" : "Open roi4cio home page: http://roi-test.my-dev.org/",
+    "time" : {
+      "start" : 1527540881194,
+      "stop" : 1527540894865,
+      "duration" : 13671
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToSalesToolPage",
+    "title" : "Click on dropdown in header and select Sale Tools home page",
+    "time" : {
+      "start" : 1527540895054,
+      "stop" : 1527540899537,
+      "duration" : 4483
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testMethod",
+    "value" : "isSalesToolOpen"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "11040@DELL-5559.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "testClass",
+    "value" : "automation.test.roi4cio.homepage.TestHomePage"
+  }, {
+    "name" : "host",
+    "value" : "DELL-5559"
+  } ],
+  "parameters" : [ ]
+}

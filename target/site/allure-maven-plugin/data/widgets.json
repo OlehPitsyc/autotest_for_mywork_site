@@ -3,17 +3,17 @@
   "plugins" : {
     "total" : {
       "statistic" : {
-        "total" : 2,
-        "passed" : 2,
+        "total" : 5,
+        "passed" : 5,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       },
       "time" : {
-        "start" : 1526934903512,
-        "stop" : 1526934931085,
-        "duration" : 27573
+        "start" : 1527540895031,
+        "stop" : 1527540970811,
+        "duration" : 75780
       }
     },
     "defects" : {
@@ -23,11 +23,11 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "6e62bcb87b73f407",
+        "uid" : "8ab851ed147f050b",
         "title" : "Surefire suite : Surefire test",
         "statistic" : {
-          "total" : 2,
-          "passed" : 2,
+          "total" : 5,
+          "passed" : 5,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 0,
@@ -40,8 +40,8 @@
       "items" : [ {
         "title" : "Without feature",
         "statistic" : {
-          "total" : 2,
-          "passed" : 2,
+          "total" : 5,
+          "passed" : 5,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 0,

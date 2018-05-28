@@ -26,7 +26,7 @@ public class Browser {
 	private static WebDriver getFireFoxDriver() {
 		String pathSeparator = File.separator;
 		String pathToDriver = "assets" + pathSeparator + "webdriver" + pathSeparator + "FireFox" + pathSeparator
-				+ "win64" + pathSeparator + "geckodriver.exe";
+				+ "win64" + pathSeparator + "geckodriver(old).exe";
 		System.setProperty("webdriver.gecko.driver", pathToDriver);
 
 		return new FirefoxDriver();

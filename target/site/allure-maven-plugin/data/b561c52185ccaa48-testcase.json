@@ -1,0 +1,119 @@
+{
+  "uid" : "b561c52185ccaa48",
+  "name" : "testLoggedUserAsSupplier",
+  "title" : "Test logged user as supplier",
+  "time" : {
+    "start" : 1527540945357,
+    "stop" : 1527540952511,
+    "duration" : 7154
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8ab851ed147f050b",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ {
+    "name" : "openHomePage",
+    "title" : "Open roi4cio home page: http://roi-test.my-dev.org/",
+    "time" : {
+      "start" : 1527540935261,
+      "stop" : 1527540945355,
+      "duration" : 10094
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToLoginPage",
+    "title" : "Click on login button",
+    "time" : {
+      "start" : 1527540945359,
+      "stop" : 1527540948637,
+      "duration" : 3278
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "loginAs[automation.test.roi4cio.userdata.UserModel@2f8ab988]",
+    "title" : "Enter your credential [automation.test.roi4cio.userdata.UserModel@2f8ab988] to loggin on the roi4cio site ",
+    "time" : {
+      "start" : 1527540948639,
+      "stop" : 1527540952425,
+      "duration" : 3786
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getLoggedUserCompanyStatus",
+    "title" : "Verify your company status in My account page",
+    "time" : {
+      "start" : 1527540952426,
+      "stop" : 1527540952511,
+      "duration" : 85
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "automation.test.roi4cio.homepage.TestLoginPage"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "11040@DELL-5559.main(1)"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoggedUserAsSupplier"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "host",
+    "value" : "DELL-5559"
+  } ],
+  "parameters" : [ ]
+}

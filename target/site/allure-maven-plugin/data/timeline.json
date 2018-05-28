@@ -2,26 +2,59 @@
   "hosts" : [ {
     "title" : "DELL-5559",
     "threads" : [ {
-      "title" : "3572@DELL-5559.main(1)",
+      "title" : "11040@DELL-5559.main(1)",
       "testCases" : [ {
-        "uid" : "f5bccc0eaf917dba",
+        "uid" : "c1ced8f2cfc1ea17",
         "name" : "isSalesToolOpen",
         "title" : "Is sales tool open",
         "time" : {
-          "start" : 1526934903512,
-          "stop" : 1526934910163,
-          "duration" : 6651
+          "start" : 1527540895031,
+          "stop" : 1527540899709,
+          "duration" : 4678
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "e2d1a38e4978def6",
+        "uid" : "57d9bf5e73325bb0",
         "name" : "isLoginPageOpen",
         "title" : "Is login page open",
         "time" : {
-          "start" : 1526934927808,
-          "stop" : 1526934931085,
-          "duration" : 3277
+          "start" : 1527540910793,
+          "stop" : 1527540914126,
+          "duration" : 3333
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "568856e577e956b1",
+        "name" : "testLoggedUserAsUser",
+        "title" : "Test logged user as user",
+        "time" : {
+          "start" : 1527540925565,
+          "stop" : 1527540932840,
+          "duration" : 7275
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b561c52185ccaa48",
+        "name" : "testLoggedUserAsSupplier",
+        "title" : "Test logged user as supplier",
+        "time" : {
+          "start" : 1527540945357,
+          "stop" : 1527540952511,
+          "duration" : 7154
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9bbaf57cc147e4c7",
+        "name" : "testLoggedUserAsVendor",
+        "title" : "Test logged user as vendor",
+        "time" : {
+          "start" : 1527540964552,
+          "stop" : 1527540970811,
+          "duration" : 6259
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
